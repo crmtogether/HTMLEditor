@@ -1,2 +1,2 @@
 # HTMLEditor
-Add in the ability to make a multiline text field a WYSIWYG editable field
+Add in the ability to make a multiline text field a WYSIWYG editable field in Sage CRM
