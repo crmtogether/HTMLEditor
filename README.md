@@ -1,36 +1,38 @@
 # HTMLEditor
-Add in the ability to make a multiline text field a WYSIWYG editable field in Sage CRM. We use https://summernote.org/ to implement the editor. 
+Add in the ability to make a multiline text field a WYSIWYG editable field in Sage CRM. 
+We use https://summernote.org/ to implement the editor. 
 
 The code in the 
 
-  src
+	src
 
 folder.
 
 We ship the component with it "HTMLEditor.zip".
 -To create your own Sage CRM component zip up the contents of the src folder. 
 
-To install then import via Sage CRM's Component Manager. *This creates 2 folders in your CustomPages folder called
-  HTMLEditor
-  CRMTogetherOS
+To install then import via Sage CRM's Component Manager.
+*This creates 2 folders in your CustomPages folder called
+	  HTMLEditor
+	  CRMTogetherOS
 
 When installed a new menu item is created in the 
   Administration
 area of Sage CRM called
   CRM Together OS
   
-OS=Open Source
+	OS=Open Source
 
 Within this there is a tab called 
   HTML Editor
   
 Click this and add in your fields you wish to make use the WYSIWYG editor. Note that you should have created a new mutli-line text field to be used as the WYSIWYG field. 
 For example create a field on cases called
-  case_ct_problemnote_html
+	case_ct_problemnote_html
 and add this to the 
-  CaseDetailBox 
+	CaseDetailBox 
 screen. This screen should also have the 
-  case_problemnote
+	case_problemnote
 field on it. 
 
 The in the editor set the JSON to be
