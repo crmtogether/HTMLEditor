@@ -1,0 +1,5 @@
+Description=HtmlEditor from crmtogether.com
+Directory=HtmlEditor
+multipleinstalls=y
+errorhandling=strict
+Version=2018
