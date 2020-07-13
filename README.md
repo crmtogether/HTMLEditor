@@ -8,6 +8,7 @@ The code in the
 
 folder.
 
+
 We ship the component with it "HTMLEditor.zip".
 -To create your own Sage CRM component zip up the contents of the src folder. 
 
@@ -60,5 +61,6 @@ Known issues:
 
 Firefox seems to paste images twice into the editor. The work-around is to delete one of the images. 
 
+	Update - fixed july 2020  
 
 
