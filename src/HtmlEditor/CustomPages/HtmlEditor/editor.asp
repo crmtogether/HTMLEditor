@@ -55,7 +55,7 @@
 				}).on('summernote.change', function(we, contents, $editable) {
 					//contents=contents.replace(/&/g, "&ampx_x;");
 					//contents=contents.replace(/\n/g, "<br>");
-					contents=escape(contents);
+					//contents=escape(contents);
 					var _code=$('#editor').summernote("code").replace(/<\/p>/gi, "\n").replace(/<br\/?>/gi, "\n").replace(/<\/?[^>]+(>|$)/g, "");
 					_code=_code.replace(/&nbsp;/gi, " ");
 					//var plainText = $($('#editor').summernote("code")).text();
