@@ -56,6 +56,17 @@ Save this (click update) and this the creates a file in the
 	
 which searches for these fields and applys the screen update. 
 
+If you have historical records then the following SQL can be used to update the new html fields. 
+
+	update cases
+	set 
+	case_ct_problemnote_html=case_problemnote
+	where case_ct_problemnote_html is null
+
+	update cases
+	set 
+	case_ct_solutionnote_html=case_solutionnote
+	where case_ct_solutionnote_html is null
 	  
 Known issues:
 
