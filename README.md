@@ -74,4 +74,5 @@ Firefox seems to paste images twice into the editor. The work-around is to delet
 
 	Update - fixed july 2020  
 
+21 July 22 - updated code to resize the iframe and remove the blank space
 

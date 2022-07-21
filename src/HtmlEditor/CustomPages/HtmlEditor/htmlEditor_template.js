@@ -57,4 +57,24 @@ $(document).ready(function () {
 		}
 		
 	}	
+
+	setTimeout(function() { fixupiframes(); }, 4000);
+	
 });
+
+function fixupiframes(){	
+	for (var ii =0; ii<editors.length;ii++) {
+		editorCRMFieldName = editors[ii].htmlfield;
+		var iFrame = document.getElementById("editor_"+editorCRMFieldName );
+		if (iFrame!=null){
+		  var res=resizeIFrameToFitContent( iFrame );
+		}
+	}
+}
+
+function resizeIFrameToFitContent( iFrame ) {
+	console.log('resizeIFrameToFitContent');
+    iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
+    iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
+}
+
