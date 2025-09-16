@@ -23,9 +23,9 @@ $(document).ready(function () {
 			$el.hide();		
 			$appendTo = $("#_Capt" +editorCRMFieldName).parent().parent();
 			try{
-			  u = crm.url('/HtmlEditor/editor.asp') + '&editorCRMFieldName='+editorCRMFieldName+'&editorReadOnly=' + editorReadOnly+"&editorCRMFieldNameText="+editorCRMFieldNameText;
+			  u = crm.url('/HtmlEditor/editor.asp') + '&1=1&editorCRMFieldName='+editorCRMFieldName+'&editorReadOnly=' + editorReadOnly+"&editorCRMFieldNameText="+editorCRMFieldNameText;
 			}catch(e){
-			  u = '/customer365/HtmlEditor/editor2.asp?' + 'editorCRMFieldName='+editorCRMFieldName+'&editorReadOnly=' + editorReadOnly+"&editorCRMFieldNameText="+editorCRMFieldNameText;				
+			  u = '/customer365/HtmlEditor/editor2.asp?' + '1=1&editorCRMFieldName='+editorCRMFieldName+'&editorReadOnly=' + editorReadOnly+"&editorCRMFieldNameText="+editorCRMFieldNameText;				
 			}
 			console.log("Loading url:"+u);
 			if (editorReadOnly) { //we are in view mode	        
@@ -42,9 +42,9 @@ $(document).ready(function () {
 			$el.hide();		
 			$appendTo = $("#_Capt" +editorCRMFieldName).parent().parent();
 			try{
-			  u = crm.url('/HtmlEditor/editor.asp') + '&editorCRMFieldName='+editorCRMFieldName+'&editorReadOnly=' + editorReadOnly+"&editorCRMFieldNameText="+editorCRMFieldNameText;
+			  u = crm.url('/HtmlEditor/editor.asp') + '&1=1&editorCRMFieldName='+editorCRMFieldName+'&editorReadOnly=' + editorReadOnly+"&editorCRMFieldNameText="+editorCRMFieldNameText;
 			}catch(e){
-			  u = '/customer365/HtmlEditor/editor2.asp?' + 'editorCRMFieldName='+editorCRMFieldName+'&editorReadOnly=' + editorReadOnly+"&editorCRMFieldNameText="+editorCRMFieldNameText;				
+			  u = '/customer365/HtmlEditor/editor2.asp?' + '1=1&editorCRMFieldName='+editorCRMFieldName+'&editorReadOnly=' + editorReadOnly+"&editorCRMFieldNameText="+editorCRMFieldNameText;				
 			}
 			console.log("Loading url:"+u);
 			if (editorReadOnly) { //we are in view mode	        
