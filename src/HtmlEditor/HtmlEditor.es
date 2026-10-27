@@ -34,29 +34,31 @@ CreateNewDir(GetDLLDir() + '\\CustomPages\\' + HtmlEditor+'\\Scripts');
 CopyASPTo(HtmlEditor+'\\admin.asp','\\CustomPages\\'+HtmlEditor+'\\admin.asp');
 CopyASPTo(HtmlEditor+'\\editor.asp','\\CustomPages\\'+HtmlEditor+'\\editor.asp');
 CopyASPTo(HtmlEditor+'\\htmlEditor_template.js','\\CustomPages\\'+HtmlEditor+'\\htmlEditor_template.js');
+CopyASPTo(HtmlEditor+'\\imageTools.js','\\CustomPages\\'+HtmlEditor+'\\imageTools.js');
+CopyASPTo(HtmlEditor+'\\imageTools.css','\\CustomPages\\'+HtmlEditor+'\\imageTools.css');
 CopyASPTo(HtmlEditor+'\\sagecrm.js','\\CustomPages\\'+HtmlEditor+'\\sagecrm.js');
 CopyASPTo(HtmlEditor+'\\sagecrmnolang.js','\\CustomPages\\'+HtmlEditor+'\\sagecrmnolang.js');
 
 
 CreateNewDir(GetDLLDir() + '\\CustomPages\\' + HtmlEditor+'\\Scripts\\bootstrap');
-CreateNewDir(GetDLLDir() + '\\CustomPages\\' + HtmlEditor+'\\Scripts\\bootstrap\\3.3.5');
-CreateNewDir(GetDLLDir() + '\\CustomPages\\' + HtmlEditor+'\\Scripts\\bootstrap\\3.3.5\\css');
-CopyASPTo(HtmlEditor+'\\Scripts\\bootstrap\\3.3.5\\css\\bootstrap.min.css','\\CustomPages\\'+HtmlEditor+'\\Scripts\\bootstrap\\3.3.5\\css\\bootstrap.min.css');
+CreateNewDir(GetDLLDir() + '\\CustomPages\\' + HtmlEditor+'\\Scripts\\bootstrap\\3.4.1');
+CreateNewDir(GetDLLDir() + '\\CustomPages\\' + HtmlEditor+'\\Scripts\\bootstrap\\3.4.1\\css');
+CopyASPTo(HtmlEditor+'\\Scripts\\bootstrap\\3.4.1\\css\\bootstrap.min.css','\\CustomPages\\'+HtmlEditor+'\\Scripts\\bootstrap\\3.4.1\\css\\bootstrap.min.css');
 
-CreateNewDir(GetDLLDir() + '\\CustomPages\\' + HtmlEditor+'\\Scripts\\bootstrap\\3.3.5\\js');
-CopyASPTo(HtmlEditor+'\\Scripts\\bootstrap\\3.3.5\\js\\bootstrap.min.js','\\CustomPages\\'+HtmlEditor+'\\Scripts\\bootstrap\\3.3.5\\js\\bootstrap.min.js');
+CreateNewDir(GetDLLDir() + '\\CustomPages\\' + HtmlEditor+'\\Scripts\\bootstrap\\3.4.1\\js');
+CopyASPTo(HtmlEditor+'\\Scripts\\bootstrap\\3.4.1\\js\\bootstrap.min.js','\\CustomPages\\'+HtmlEditor+'\\Scripts\\bootstrap\\3.4.1\\js\\bootstrap.min.js');
 
 CreateNewDir(GetDLLDir() + '\\CustomPages\\' + HtmlEditor+'\\Scripts\\jQuery');
-CopyASPTo(HtmlEditor+'\\Scripts\\jQuery\\jquery-3.3.1.min.js','\\CustomPages\\'+HtmlEditor+'\\Scripts\\jQuery\\jquery-3.3.1.min.js');
+CopyASPTo(HtmlEditor+'\\Scripts\\jQuery\\jquery-3.7.1.min.js','\\CustomPages\\'+HtmlEditor+'\\Scripts\\jQuery\\jquery-3.7.1.min.js');
 
 CreateNewDir(GetDLLDir() + '\\CustomPages\\' + HtmlEditor+'\\Scripts\\summernote');
 CopyASPTo(HtmlEditor+'\\Scripts\\summernote\\summernote.css','\\CustomPages\\'+HtmlEditor+'\\Scripts\\summernote\\summernote.css');
 CopyASPTo(HtmlEditor+'\\Scripts\\summernote\\summernote.js','\\CustomPages\\'+HtmlEditor+'\\Scripts\\summernote\\summernote.js');
-CopyASPTo(HtmlEditor+'\\Scripts\\summernote\\summernote.css','\\CustomPages\\'+HtmlEditor+'\\Scripts\\summernote\\summernote.css');
 
 CreateNewDir(GetDLLDir() + '\\CustomPages\\' + HtmlEditor+'\\Scripts\\summernote\\font');
 CopyASPTo(HtmlEditor+'\\Scripts\\summernote\\font\\summernote.eot','\\CustomPages\\'+HtmlEditor+'\\Scripts\\summernote\\font\\summernote.eot');
 CopyASPTo(HtmlEditor+'\\Scripts\\summernote\\font\\summernote.ttf','\\CustomPages\\'+HtmlEditor+'\\Scripts\\summernote\\font\\summernote.ttf');
 CopyASPTo(HtmlEditor+'\\Scripts\\summernote\\font\\summernote.woff','\\CustomPages\\'+HtmlEditor+'\\Scripts\\summernote\\font\\summernote.woff');
+CopyASPTo(HtmlEditor+'\\Scripts\\summernote\\font\\summernote.woff2','\\CustomPages\\'+HtmlEditor+'\\Scripts\\summernote\\font\\summernote.woff2');
 
 
