@@ -82,7 +82,8 @@ content.contents +=newline+"The CRM Together Open Source Team"+newline+newline;
 
 content.contents +=newline+"htmlfield is the field that will become the WYSIWYG editor";
 content.contents +=newline+"textfield will be filled with the text (minus the html) so searching in CRM will not be affected";
-content.contents +=newline+"If textfield is left blank then it will be assumed this is not to be set."+newline+newline;
+content.contents +=newline+"If textfield is left blank then it will be assumed this is not to be set.";
+content.contents +=newline+"Optional per field settings: maxSizeMB (default 7), warnSizeMB (5), imageMaxWidth (1600), imageQuality (0.8), imageFormat (auto|jpeg|png|webp), imageEditorOnInsert (true), autoCompressPastedKB (300)."+newline+newline;
 
 Container.AddBlock(content);
 

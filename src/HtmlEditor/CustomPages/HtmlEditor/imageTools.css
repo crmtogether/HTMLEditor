@@ -1,0 +1,32 @@
+/* CRM Together HTML Editor - image tools and size meter */
+
+.ct-meter { margin: 4px 0 0; font-size: 12px; color: #555; }
+.ct-meter-bar { height: 4px; background: #e5e5e5; border-radius: 2px; overflow: hidden; }
+.ct-meter-fill { height: 100%; width: 0; background: #5cb85c; transition: width .2s; }
+.ct-meter[data-state="warn"] .ct-meter-fill { background: #f0ad4e; }
+.ct-meter[data-state="warn"] .ct-meter-text { color: #8a6d3b; }
+.ct-meter[data-state="over"] .ct-meter-fill { background: #d9534f; }
+.ct-meter[data-state="over"] .ct-meter-text { color: #a94442; font-weight: bold; }
+.ct-meter-text { margin-top: 2px; }
+.ct-meter-note { display: none; color: #31708f; }
+
+.ct-imgtools .modal-dialog { margin-top: 10px; }
+.ct-imgtools .modal-body { padding: 10px 15px; }
+.ct-imgtools .ct-stage { min-height: 200px; display: flex; align-items: center; justify-content: center;
+	background: repeating-conic-gradient(#eee 0% 25%, #fff 0% 50%) 50% / 16px 16px; }
+.ct-imgtools .ct-preview { display: block; cursor: crosshair; touch-action: none; }
+.ct-imgtools .ct-stage-tools { margin-top: 8px; }
+.ct-imgtools .ct-hint { margin-left: 8px; color: #888; font-size: 12px; }
+.ct-imgtools .form-group { margin-bottom: 8px; }
+.ct-imgtools label { margin-bottom: 2px; font-size: 12px; }
+.ct-imgtools .ct-val, .ct-imgtools .ct-dims { font-weight: normal; color: #777; }
+.ct-imgtools .ct-inline { display: flex; align-items: center; gap: 6px; }
+.ct-imgtools .ct-inline input[type=range] { flex: 1; }
+.ct-imgtools .ct-inline .ct-width { width: 80px; }
+.ct-imgtools .ct-disabled { opacity: .4; pointer-events: none; }
+.ct-imgtools .ct-stats { font-size: 12px; background: #f7f7f7; border: 1px solid #e3e3e3; border-radius: 3px; padding: 6px 8px; }
+.ct-imgtools .ct-muted { color: #888; margin-bottom: 3px; }
+.ct-imgtools .ct-good { color: #3c763d; }
+.ct-imgtools .ct-bad { color: #a94442; }
+.ct-imgtools .ct-warning { float: left; text-align: left; max-width: 55%; font-size: 12px; color: #8a6d3b; padding-top: 2px; }
+.ct-imgtools .ct-warning.ct-bad { color: #a94442; font-weight: bold; }
